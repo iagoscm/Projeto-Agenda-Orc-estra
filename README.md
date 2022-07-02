@@ -1,14 +1,15 @@
 # Projeto Agenda
-### Repositório criado para o projeto do Grupo 1 do processo Trainee da Empresa Júnior Orc'estra Gamificação, da UnB do Gama.
+#### Repositório voltado para o projeto final do processo Trainee da Empresa Júnior Orc'estra Gamificação, da UnB do Gama.
 
 O intuito do Projeto Agenda! é criar uma agenda onde o usuário possa se cadastrar na aplicação, para assim 
 dentro da agenda poder registrar N contatos, poder editá-los N vezes e também poder apagar um contato já cadastrado.
 __________
-#### Membros do Grupo:
-1. Abdul Hannan
-2. Clara de Medeiros Closs
-3. Gustavo Henrique Rodrigues de Souza
-4. Guilherme Keyti Cabral Kishimoto
-5. Iago de Sousa Campelo Matos
-6. Victor Hugo Rodrigues Guimarães
-7. Vinicius Eduardo Muniz da Silva
+### Membros do Grupo:
+| Nome | E-mail |
+|-|-|
+| Abdul Hannan | hannanhoney500@gmail.com |
+| Clara de Medeiros Closs | clara@closs.net.br |
+| Gustavo Henrique Rodrigues de Souza | gustavohenriqueprivado@gmail.com |
+| Iago de Sousa Campelo Matos | iagomatosousa@gmail.com |
+| Victor Hugo Rodrigues Guimarães |  |
+| Vinicius Eduardo Muniz da Silva | vs454595@gmail.com | 
