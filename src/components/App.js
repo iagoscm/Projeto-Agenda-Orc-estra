@@ -2,20 +2,28 @@
 import React from "react";
 import Login from "./login/Login";
 import Register from "./registrar/Registrar";
-import Home from "./home/home";
-import "./App.css";
+import addContato from "./addContato/addContato";
+import listaContato from "./listaContato/listaContato"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
+import Home from "./home/home";
+import "./App.css";
+
 
 const App = () =>{
 
-    return(
+  return(
+    <div>
+      <Home />
+    </div>
+  )
 
-     <div className="App">
-          <Router>
+    /*return(
+    <Router>
+      <div className="App"> 
         <Routes>
-          <Route exact path="/">
-        
+          <Route path="/" exact>
+            <Home />
           </Route>
           <Route path="/login">
             <Login />
@@ -24,11 +32,10 @@ const App = () =>{
             <Register />
           </Route>
         </Routes>
-      </Router>
-    </div>
-        
+      </div>
+    </Router>
     
-    )
+    )*/
 }
 
 export default App;
