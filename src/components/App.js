@@ -2,8 +2,8 @@
 import React from "react";
 import Login from "./login/Login";
 import Register from "./registrar/Registrar";
-import addContato from "./addContato/addContato";
-import listaContato from "./listaContato/listaContato"
+import AddContato from "./addContato/addContato";
+import ListaContato from "./listaContato/listaContato"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 import Home from "./home/home";
@@ -12,30 +12,24 @@ import "./App.css";
 
 const App = () =>{
 
+  const contatos = [
+
+    {
+      nome: "iago",
+      numero: "619811179895"
+    },
+    {
+      nome: "alexia",
+      numero: "619898298223"
+    },
+  ];
+
+
   return(
     <div>
       <Home />
     </div>
   )
-
-    /*return(
-    <Router>
-      <div className="App"> 
-        <Routes>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
-          </Route>
-        </Routes>
-      </div>
-    </Router>
-    
-    )*/
 }
 
 export default App;
