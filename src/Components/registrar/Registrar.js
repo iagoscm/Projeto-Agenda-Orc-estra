@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import "./Registrar.css";
-import {useHistory} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 
 const Register = () => {
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const [ user, setUser] = useState({
         name: "",
@@ -34,7 +34,7 @@ const Register = () => {
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange }></input>
             <div className="button">Register</div>
             <div>or</div>
-            <div className="button"  onClick={()=> history.push("./login")}>Login</div>
+            <div className="button"  onClick={()=> navigate("./login")}>Login</div>
         </div>
     )
 }
