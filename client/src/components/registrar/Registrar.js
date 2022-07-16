@@ -28,7 +28,7 @@ const Registrar = () => {
             axios.post("http://localhost:9002/register", user)
             .then( res => {
                 alert(res.data.message)
-                history.push("/login")
+                history("/login")
             })
         } else {
             alert("invlid input")
@@ -46,7 +46,7 @@ const Registrar = () => {
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange }></input>
             <div className="button" onClick={register} >Register</div>
             <div>or</div>
-            <div className="button" onClick={() => history.push("/login")}>Login</div>
+            <div className="button" onClick={() => history("/login")}>Login</div>
         </div>
     )
 }

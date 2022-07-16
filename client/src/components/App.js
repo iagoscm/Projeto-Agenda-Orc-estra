@@ -4,6 +4,7 @@ import Login from './login/login'
 import Registrar from './registrar/Registrar';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
+import React from 'react';
 
 const App = ()=>{
 
