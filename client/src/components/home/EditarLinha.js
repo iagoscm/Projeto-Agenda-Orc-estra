@@ -11,7 +11,7 @@ const EditarLinha = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter a name..."
+          placeholder="Nome"
           name="fullName"
           value={editFormData.fullName}
           onChange={handleEditFormChange}
@@ -21,7 +21,7 @@ const EditarLinha = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter an address..."
+          placeholder="Endereço"
           name="address"
           value={editFormData.address}
           onChange={handleEditFormChange}
@@ -31,7 +31,7 @@ const EditarLinha = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter a phone number..."
+          placeholder="Telefone"
           name="phoneNumber"
           value={editFormData.phoneNumber}
           onChange={handleEditFormChange}
@@ -41,16 +41,16 @@ const EditarLinha = ({
         <input
           type="email"
           required="required"
-          placeholder="Enter an email..."
+          placeholder="Email"
           name="email"
           value={editFormData.email}
           onChange={handleEditFormChange}
         ></input>
       </td>
       <td>
-        <button type="submit">Save</button>
+        <button type="submit">Salvar</button>
         <button type="button" onClick={handleCancelClick}>
-          Cancel
+          Cancelar
         </button>
       </td>
     </tr>

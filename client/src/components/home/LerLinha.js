@@ -13,11 +13,11 @@ const LerLinha = ({ contact, handleEditClick, handleDeleteClick }) => {
           type="button"
           onClick={(event) => handleEditClick(event, contact)}
         >
-          Edit
+          Editar
         </button>
         <button type="button" onClick={() => handleDeleteClick(contact.id)}>
-          Delete
-        </button>
+          Deletar
+       </button>
       </td>
     </tr>
   );

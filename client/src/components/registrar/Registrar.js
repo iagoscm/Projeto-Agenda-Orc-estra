@@ -31,7 +31,7 @@ const Registrar = () => {
                 history("/login")
             })
         } else {
-            alert("invlid input")
+            alert("Escreva algo no campo abaixo")
         }
         
     }
@@ -39,12 +39,12 @@ const Registrar = () => {
     return (
         <div className="register">
             {console.log("User", user)}
-            <h1>Register</h1>
+            <h1>Registrar</h1>
             <input type="text" name="name" value={user.name} placeholder="Your Name" onChange={ handleChange }></input>
             <input type="text" name="email" value={user.email} placeholder="Your Email" onChange={ handleChange }></input>
             <input type="password" name="password" value={user.password} placeholder="Your Password" onChange={ handleChange }></input>
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange }></input>
-            <div className="button" onClick={register} >Register</div>
+            <div className="button" onClick={register} >Registrar</div>
             <div>or</div>
             <div className="button" onClick={() => history("/login")}>Login</div>
         </div>
