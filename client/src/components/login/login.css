@@ -21,8 +21,8 @@
 }
 
 .login > .button {
-    background: #1877f2;
-    border: 1px solid #1877f2;
+    background: rgb(21, 115, 138) 0%;
+    border: 1px solid rgb(21, 115, 138) 0%;
     color: #fff;
     font-size: 1.25rem;
     padding: 0.5rem;

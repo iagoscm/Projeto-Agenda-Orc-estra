@@ -4,6 +4,10 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #f0f2f5;
+  background: linear-gradient(
+      90deg,
+      rgb(21, 115, 138) 0%,
+      rgb(159, 233, 153) 100%
+    );
   font-family: Arial, sans-serif;
 }
