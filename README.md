@@ -16,14 +16,12 @@
 | Vinicius Eduardo Muniz da Silva | vs454595@gmail.com |
 #
 ## 💻 Tecnologias necessárias
-#
 #### MongoDB 
 #### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50rem"/>
 #### ReactJS
 #### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="50rem"/>
 # 
 ## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
-#
 
 ###  No diretório /client, rode 
 

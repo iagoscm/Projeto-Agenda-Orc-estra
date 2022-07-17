@@ -8,7 +8,7 @@ const Inicio = () => {
 
     return (
         <div className="Inicio">
-        <h1>Projeto Agenda!</h1>
+        <h1>Agenda!</h1>
         <div className="button" onClick={() => history("/home")}>Agenda</div>
         <div className="button" onClick={() => history("/login")}>Login</div>
         <div className="button" onClick={() => history("/register")}>Registrar</div>
