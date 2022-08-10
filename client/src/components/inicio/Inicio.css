@@ -1,6 +1,6 @@
 .Inicio {
     width: 400px;
-    background: rgb(233, 116, 116);
+    background: rgb(116, 167, 233);
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
@@ -10,7 +10,7 @@
 }
 
 .button {
-    background: #78fa21;
+    background: #000000;
     border: 1px solid #1877f2;
     color: #fff;
     font-size: 1.25rem;

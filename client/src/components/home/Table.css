@@ -2,14 +2,16 @@ app-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 1rem;
+    padding: 1px;
   }
-  
+
   table {
     border-collapse: collapse;
     width: 100%;
+    display: block;
+    position: relative;
   }
-  
+
   th,
   td {
     border: 1px solid #ffffff;
@@ -17,25 +19,26 @@ app-container {
     padding: 8px;
     font-size: 32px;
   }
-  
+
   th {
-    background-color: rgb(21, 115, 138);
+    background-color: rgba(30, 146, 155, 0.295);
+
   }
-  
+
   td {
-    background-color: rgb(123, 199, 219);
+    background-color: rgba(123, 200, 219, 0.514);
   }
-  
+
   form {
     display: flex;
     gap: 5px;
   }
-  
+
   form td:last-child {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
-  
+
   form * {
     font-size: 28px;
   }
